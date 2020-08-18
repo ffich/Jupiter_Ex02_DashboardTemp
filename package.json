@@ -2,7 +2,11 @@
     "name": "Ex02_DashboardTempSensor",
     "description": "A simple dashboard displaing temperature data.",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-calc": "1.0.3",
+        "node-red-contrib-i2c": "0.7.2",
+        "node-red-dashboard": "2.23.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
